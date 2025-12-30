@@ -1,0 +1,22 @@
+import pandas as pd 
+
+area = int(input("Please enter the cross-sectional area of the river: "))
+wp = int(input("Please enter the wetted-perimiter area of the river:  "))
+hr = area/wp
+
+surfslope = float(input("Please enter the surface slope of your river:  "))
+man = float(input("Please enter the Manning's Coefficient:  "))
+v = (1 / man) * (hr ** (2/3)) * (surfslope ** 0.5)
+
+fd = int(input("Please enter flow depth: "))
+fr = v/(3.73*fd)**0.5
+
+q = v*area
+sp = 1000 * 3.73 * q * surfslope
+
+df = pd.DataFrame()
+df['Physical Parameter'] = "Velocity", "Discharge", "Stream Power", "Froude Number"
+df['Value'] = v, q, sp, fr
+pd.options.display.float_format = '{:.3f}'.format
+print(df)
+display(df)
