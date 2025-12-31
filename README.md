@@ -1,5 +1,5 @@
 # Important Information 
-The Martian Flow Hydraulics Model, hereafter referred to as MFHM, is a basic deterministic model created to reconstruct the flow hydraulics of Martian rivers; whereby, Earth-based open-channel hydraulic parameters are automatically adjusted to reflect Mars' planetary conditions. MFHM was originally designed as part of an undergraduate Geography & Environmental Science coursework piece, with the primary objective of aimed to reconstruct Reull Vallis—an inactive ~1,500km ancient fluvial system. 
+The Martian Flow Hydraulics Model, hereafter referred to as MFHM, is a basic deterministic model created to reconstruct the flow hydraulics of Martian rivers; whereby, Earth-based open-channel hydraulic parameters are automatically adjusted to reflect Mars' planetary conditions. MFHM was originally designed as part of an undergraduate Geography & Environmental Science coursework piece, with the primary objective of aimed to reconstruct Reull Vallis—an inactive ~1,700km ancient fluvial system. 
 
 Disclaimer: this code is not intended to present a definitive or fully validated reconstruction of Martian hydrology; but rather, a transparent framework through which planetary scaling effects may be explained. 
 
